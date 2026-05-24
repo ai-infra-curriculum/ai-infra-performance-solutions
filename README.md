@@ -61,8 +61,8 @@ ai-infra-performance-solutions/
 
 ## Related Resources
 
-- [Performance Learning Repository](../../learning/ai-infra-performance-learning/)
-- [Engineer Track](../../learning/ai-infra-engineer-learning/)
+- [Performance Learning Repository](https://github.com/ai-infra-curriculum/ai-infra-performance-learning)
+- [Engineer Track](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning)
 
 ---
 
