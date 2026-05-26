@@ -1,70 +1,80 @@
-# AI Infrastructure Performance Engineer - Solutions Repository
+# AI Infrastructure Performance Engineer — Solutions Repository
 
-> **Status**: 🚧 **PLACEHOLDER - Content Coming Soon**
+> **Status**: ✅ **Published** — 8 modules with 40+ reference solutions live as of 2026-05. Content is AI-assisted and undergoing human review; treat as a learning reference and cross-check with primary sources (NVIDIA datasheets, PyTorch / TensorFlow docs, NCCL specs) before adopting patterns in production.
 
-## Overview
+Reference implementations for the **AI Infrastructure Performance Engineer** specialization track ([ai-infra-performance-learning](https://github.com/ai-infra-curriculum/ai-infra-performance-learning)).
 
-This repository contains solution code for the **AI Infrastructure Performance Engineer** specialization track, focusing on optimizing ML infrastructure performance, cost, and efficiency.
+For the design philosophy across this module set, see [`SOLUTION_OVERVIEW.md`](./SOLUTION_OVERVIEW.md). For the authoritative content index, see the per-module READMEs under `modules/`.
 
-## What This Repository Will Contain
+## What's in here
 
-### Module Solutions
-- GPU utilization optimization techniques
-- Inference latency reduction strategies
-- Distributed training performance tuning
-- Cost optimization implementations
-- Profiling and benchmarking frameworks
-- Auto-scaling optimization solutions
+- **`modules/`** — Per-exercise solutions organized by module:
+  - `mod-001-gpu-fundamentals` — GPU architecture vocabulary, roofline analysis.
+  - `mod-002-cuda-programming` — CUDA kernel patterns.
+  - `mod-003-performance-profiling` — Nsight, PyTorch Profiler, DCGM.
+  - `mod-004-transformer-optimization` — flash-attention, KV-cache, quantization.
+  - `mod-005-model-compression` — quality/size/speed trade-offs.
+  - `mod-006-distributed-inference` — tensor/pipeline parallelism.
+  - `mod-007-production-deployment` — where lab-grade optimizations meet real traffic.
+  - `mod-008-advanced-topics` — frontier patterns (speculative decoding, etc.).
+- **`guides/`** — Cross-cutting walkthroughs.
+- **`resources/`** — Shared references.
+- **[`SOLUTION_OVERVIEW.md`](./SOLUTION_OVERVIEW.md)** — Design philosophy across the track.
 
-### Reference Implementations
-- Performance monitoring dashboards
-- GPU profiling pipelines (Nsight, PyTorch Profiler)
-- Cost attribution and forecasting systems
-- Inference optimization (quantization, batching, caching)
-- Training efficiency improvements
+The project layer (full end-to-end optimization studies) lives in the [learning repo's `projects/`](https://github.com/ai-infra-curriculum/ai-infra-performance-learning/tree/main/projects).
 
-## Repository Structure
+## How to use this repository
 
-```
-ai-infra-performance-solutions/
-├── README.md
-├── modules/
-│   ├── mod-001-performance-fundamentals/
-│   ├── mod-002-gpu-optimization/
-│   ├── mod-003-inference-optimization/
-│   ├── mod-004-training-efficiency/
-│   ├── mod-005-cost-optimization/
-│   └── mod-006-profiling-debugging/
-├── benchmarks/
-│   ├── inference-benchmarks/
-│   ├── training-benchmarks/
-│   └── cost-analysis/
-└── tools/
-    ├── profiling-scripts/
-    └── optimization-utilities/
-```
+1. **Attempt the exercise yourself first** in the learning repo — solutions only help if you've struggled with the problem.
+2. **Baseline before optimizing.** Every solution in this track includes a baseline number; if you can't reproduce the baseline, you can't measure the optimization.
+3. **Read the profiling output**, not just the code. The optimization makes sense only against the profile.
+4. **Verify model quality after every change.** Quantization, pruning, and operator substitutions can silently degrade quality.
 
-## Learning Objectives
+## Prerequisites
 
-- Reduce inference latency by 50%+ through optimization
-- Improve GPU utilization from 40% to 85%+
-- Cut infrastructure costs by 30-50% through efficiency
-- Build comprehensive performance monitoring systems
-- Master profiling tools (Nsight, PyTorch Profiler, TensorBoard)
-- Optimize distributed training scaling efficiency
+- The [Engineer track](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning) and ideally the [Senior Engineer track](https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-learning).
+- Comfort reading CUDA-adjacent code (you don't need to write it daily, but reading it is non-negotiable).
+- A GPU-accessible environment for the hands-on exercises (cloud or local).
 
-## Target Audience
+**Experience level**: Advanced (4–6 years engineering experience, with some prior exposure to GPU workloads).
+**Time commitment**: 200–250 hours across the track.
 
-**Experience Level**: Advanced (4-6 years, specialization in performance)
+## Learning objectives
 
-**Time Commitment**: 200-250 hours
+The Performance track prepares you to:
 
-## Related Resources
+- Reduce inference latency by 50%+ through measured optimizations.
+- Improve GPU utilization from typical baseline (~40%) to production-acceptable levels (~85%+).
+- Reduce infrastructure costs by 30–50% through efficiency gains, with the trade-offs quantified.
+- Build performance regression testing so optimizations don't silently regress.
+- Choose appropriate hardware (procurement) based on actual workload characteristics, not heuristics.
 
-- [Performance Learning Repository](https://github.com/ai-infra-curriculum/ai-infra-performance-learning)
-- [Engineer Track](https://github.com/ai-infra-curriculum/ai-infra-engineer-learning)
+## Related repositories
+
+- [ai-infra-performance-learning](https://github.com/ai-infra-curriculum/ai-infra-performance-learning) — companion learning materials with project-layer build-outs.
+- [ai-infra-engineer-solutions](https://github.com/ai-infra-curriculum/ai-infra-engineer-solutions) — broader engineering depth.
+- [ai-infra-senior-engineer-solutions](https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-solutions) — distributed training reference (project-201).
+- [ai-infra-architect-solutions](https://github.com/ai-infra-curriculum/ai-infra-architect-solutions) — architecture-level cost / capacity reasoning.
+
+## Known limitations
+
+- **Content is AI-assisted and partly under human review.** Verify against NVIDIA datasheets and current PyTorch / TensorFlow docs before quoting specific numbers (especially for newer hardware like Blackwell).
+- **Hardware specificity matters.** A solution that wins on H100 may not win on A100 or Blackwell; each solution identifies its target hardware and assumptions.
+- **Profiling output is the source of truth.** Numbers in the lecture notes are illustrative; reproduce on your hardware before relying on them.
+
+## Contributing
+
+Issues, corrections, and pull requests are welcome. See [`CONTRIBUTING.md`](./CONTRIBUTING.md). The most useful contributions:
+
+- Updating baseline numbers as hardware ships (Blackwell B200, future generations).
+- Adding regression-test infrastructure for the optimization solutions.
+- Refining the profiling walkthroughs as PyTorch Profiler / Nsight evolve.
+
+## License
+
+See [`LICENSE`](./LICENSE).
 
 ---
 
-**Last Updated**: 2025-10-25
-**Status**: Placeholder
+**Last updated**: 2026-05-26
+**Maintainer**: AI Infrastructure Curriculum Project
