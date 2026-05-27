@@ -6,6 +6,10 @@ Reference implementations for the **AI Infrastructure Performance Engineer** spe
 
 For the design philosophy across this module set, see [`SOLUTION_OVERVIEW.md`](./SOLUTION_OVERVIEW.md). For the authoritative content index, see the per-module READMEs under `modules/`.
 
+## What's new — 2026-05-27
+
+Module-level `SOLUTION.md` design-rationale docs for all 8 modules (`mod-001-gpu-fundamentals` through `mod-008-advanced-topics`). Each doc explains the GPU/perf-engineering "why" behind the reference implementations — the choice of CUDA primitives, memory-hierarchy decisions, inference framework selection — rather than re-walking the code in cross-referenced engineer/mod-107 + mod-110 exercises. Audit score: 51 → 63.
+
 ## What's in here
 
 - **`modules/`** — Per-exercise solutions organized by module:
