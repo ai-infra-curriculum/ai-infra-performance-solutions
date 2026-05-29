@@ -212,9 +212,10 @@ candidate submissions get one of these steps wrong:
    masked subtraction is what lets you fuse the second pass with the
    first; without the mask, the out-of-range elements contribute
    non-zero values to the variance.
-3. **`rstd = 1.0 / tl.sqrt(var + eps)`, then `y = (x - mean) * rstd
-   * w + b`** with `w` and `b` loaded once and reused. The
-   one-pass fused write of `y` is what saves the bandwidth.
+3. **`rstd = 1.0 / tl.sqrt(var + eps)`, then
+   `y = (x - mean) * rstd * w + b`** with `w` and `b` loaded once
+   and reused. The one-pass fused write of `y` is what saves the
+   bandwidth.
 
 Going from Triton to CUDA after the Triton version works is
 optional in the reference solution but is the path the rubric
