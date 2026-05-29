@@ -70,11 +70,17 @@ targeting and what they assume about it.
 
 ## Where the projects live
 
-This repo is module-only by design — the *projects* (full end-to-end
-optimization studies) live in
+The *project specifications* (overview, requirements, architecture,
+step-by-step build guide, rubric) live in
 [`ai-infra-performance-learning/projects/`](https://github.com/ai-infra-curriculum/ai-infra-performance-learning/tree/main/projects).
 Each project's optimization narrative pulls from multiple modules
 here.
+
+Project-layer **solution rationale** (the reviewer's companion to each
+spec — design choices, validation steps, rubric mapping, common
+mistakes) is published under [`projects/`](./projects/) in this repo
+as it is written. See [`projects/README.md`](./projects/README.md) for
+the per-project index.
 
 ## Production gap checklist (track-wide)
 
