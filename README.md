@@ -25,7 +25,7 @@ Module-level `SOLUTION.md` design-rationale docs for all 8 modules (`mod-001-gpu
 - **`resources/`** — Shared references.
 - **[`SOLUTION_OVERVIEW.md`](./SOLUTION_OVERVIEW.md)** — Design philosophy across the track.
 
-The project layer (full end-to-end optimization studies) lives in the [learning repo's `projects/`](https://github.com/ai-infra-curriculum/ai-infra-performance-learning/tree/main/projects).
+The full project specifications (overview, requirements, architecture, step-by-step, rubric) live in the [learning repo's `projects/`](https://github.com/ai-infra-curriculum/ai-infra-performance-learning/tree/main/projects). Reviewer-facing solution rationale for each project is published under [`projects/`](./projects/) in this repo as it is written.
 
 ## How to use this repository
 
