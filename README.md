@@ -1,5 +1,9 @@
 # AI Infrastructure Performance Engineer — Solutions Repository
 
+<!-- aicg:site-banner -->
+> 🎓 Part of the **[AI Infrastructure Curriculum](https://ai-infra-curriculum.github.io/)** — a free, open-source ladder of role-based AI-infrastructure programs. [Explore the ladder](https://ai-infra-curriculum.github.io/) · [Join the first live cohort](https://ai-infra-curriculum.github.io/junior.html)
+<!-- /aicg:site-banner -->
+
 > **Status**: ✅ **Published** — 8 modules with 40+ reference solutions live as of 2026-05. Content is AI-assisted and undergoing human review; treat as a learning reference and cross-check with primary sources (NVIDIA datasheets, PyTorch / TensorFlow docs, NCCL specs) before adopting patterns in production.
 
 Reference implementations for the **AI Infrastructure Performance Engineer** specialization track ([ai-infra-performance-learning](https://github.com/ai-infra-curriculum/ai-infra-performance-learning)).
@@ -82,7 +86,6 @@ See [`LICENSE`](./LICENSE).
 
 **Last updated**: 2026-05-26
 **Maintainer**: AI Infrastructure Curriculum Project
-
 
 ---
 
