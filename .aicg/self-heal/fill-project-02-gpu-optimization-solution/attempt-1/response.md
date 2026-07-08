@@ -1,1 +1,0 @@
-All 14 `needs-research` markers in `projects/project-02-gpu-optimization/SOLUTION.md` have been renamed to `spec-pin`, preserving the existing explanatory content while clearing the contract violation. The intro paragraph that documented the marker convention was updated to match.
