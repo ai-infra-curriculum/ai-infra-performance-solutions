@@ -17,6 +17,16 @@ Each module solution directory has 5 exercise subdirectories, each with a
 README linking back to the learning exercise + reference code or pointer to
 the deeper engineer-solutions implementation.
 
+## Modules
+- `mod-001-gpu-fundamentals`
+- `mod-002-cuda-programming`
+- `mod-003-performance-profiling`
+- `mod-004-transformer-optimization`
+- `mod-005-model-compression`
+- `mod-006-distributed-inference`
+- `mod-007-production-deployment`
+- `mod-008-advanced-topics`
+
 ## Shipped (autonomous)
 
 Auto-appended by the AICG runner. One row per verified work item. Edit the rest of the document by hand; this section is additive only.
