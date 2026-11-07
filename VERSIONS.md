@@ -1,5 +1,12 @@
 # Versions
 
+## 2026-11
+
+| Date | Work ID | Scope | Title |
+|---|---|---|---|
+| 2026-11-06 | `fill-mod-003-performance-profiling-solutions` | `mod-003-performance-profiling` | Fill mod-003-performance-profiling module exercise solutions |
+
+
 ## 2026-05
 
 | Date | Work ID | Scope | Title |
