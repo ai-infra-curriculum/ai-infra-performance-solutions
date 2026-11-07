@@ -37,3 +37,4 @@ Auto-appended by the AICG runner. One row per verified work item. Edit the rest 
 | 2026-05-28 | `fill-project-02-gpu-optimization-solution` | `project-02-gpu-optimization` | Author solution artifact for project-02-gpu-optimization |
 | 2026-05-29 | `fill-project-03-distributed-inference-solution` | `project-03-distributed-inference` | Author solution artifact for project-03-distributed-inference |
 | 2026-11-06 | `fill-mod-001-gpu-fundamentals-solutions` | `mod-001-gpu-fundamentals` | Fill mod-001-gpu-fundamentals module exercise solutions |
+| 2026-11-07 | `fill-mod-007-production-deployment-solutions` | `mod-007-production-deployment` | Fill mod-007-production-deployment module exercise solutions |
