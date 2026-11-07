@@ -10,6 +10,7 @@
 | 2026-11-06 | `fill-mod-003-performance-profiling-solutions` | `mod-003-performance-profiling` | Fill mod-003-performance-profiling module exercise solutions |
 | 2026-11-06 | `fill-mod-001-gpu-fundamentals-solutions` | `mod-001-gpu-fundamentals` | Fill mod-001-gpu-fundamentals module exercise solutions |
 | 2026-11-07 | `fill-mod-007-production-deployment-solutions` | `mod-007-production-deployment` | Fill mod-007-production-deployment module exercise solutions |
+| 2026-11-07 | `fill-mod-008-advanced-topics-solutions` | `mod-008-advanced-topics` | Fill mod-008-advanced-topics module exercise solutions |
 
 
 ## 2026-05
