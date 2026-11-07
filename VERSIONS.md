@@ -1,5 +1,12 @@
 # Versions
 
+## 2026-11
+
+| Date | Work ID | Scope | Title |
+|---|---|---|---|
+| 2026-11-06 | `fill-mod-004-transformer-optimization-solutions` | `mod-004-transformer-optimization` | Fill mod-004-transformer-optimization module exercise solutions |
+
+
 ## 2026-05
 
 | Date | Work ID | Scope | Title |

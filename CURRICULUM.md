@@ -36,3 +36,4 @@ Auto-appended by the AICG runner. One row per verified work item. Edit the rest 
 | 2026-05-28 | `fill-project-01-model-optimization-solution` | `project-01-model-optimization` | Author solution artifact for project-01-model-optimization |
 | 2026-05-28 | `fill-project-02-gpu-optimization-solution` | `project-02-gpu-optimization` | Author solution artifact for project-02-gpu-optimization |
 | 2026-05-29 | `fill-project-03-distributed-inference-solution` | `project-03-distributed-inference` | Author solution artifact for project-03-distributed-inference |
+| 2026-11-06 | `fill-mod-004-transformer-optimization-solutions` | `mod-004-transformer-optimization` | Fill mod-004-transformer-optimization module exercise solutions |
