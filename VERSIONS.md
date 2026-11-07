@@ -1,5 +1,12 @@
 # Versions
 
+## 2026-11
+
+| Date | Work ID | Scope | Title |
+|---|---|---|---|
+| 2026-11-07 | `fill-mod-006-distributed-inference-solutions` | `mod-006-distributed-inference` | Fill mod-006-distributed-inference module exercise solutions |
+
+
 ## 2026-05
 
 | Date | Work ID | Scope | Title |
