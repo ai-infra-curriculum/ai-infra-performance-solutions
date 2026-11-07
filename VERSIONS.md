@@ -1,5 +1,12 @@
 # Versions
 
+## 2026-11
+
+| Date | Work ID | Scope | Title |
+|---|---|---|---|
+| 2026-11-07 | `fill-mod-005-model-compression-solutions` | `mod-005-model-compression` | Fill mod-005-model-compression module exercise solutions |
+
+
 ## 2026-05
 
 | Date | Work ID | Scope | Title |
