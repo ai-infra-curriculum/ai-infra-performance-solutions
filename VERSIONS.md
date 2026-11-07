@@ -1,5 +1,12 @@
 # Versions
 
+## 2026-11
+
+| Date | Work ID | Scope | Title |
+|---|---|---|---|
+| 2026-11-06 | `fill-mod-001-gpu-fundamentals-solutions` | `mod-001-gpu-fundamentals` | Fill mod-001-gpu-fundamentals module exercise solutions |
+
+
 ## 2026-05
 
 | Date | Work ID | Scope | Title |
