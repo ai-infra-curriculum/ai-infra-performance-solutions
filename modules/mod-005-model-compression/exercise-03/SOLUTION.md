@@ -294,7 +294,7 @@ Decision rationale (why this shape of answer):
   <https://developer.nvidia.com/blog/accelerating-inference-with-sparsity-using-ampere-and-tensorrt/>
 - NVIDIA Ampere Architecture Whitepaper (section on Sparse Tensor
   Cores and the 2:4 pattern):
-  <https://www.nvidia.com/en-us/data-center/nvidia-ampere-gpu-architecture/>
+  <https://www.nvidia.com/en-us/data-center/ampere-architecture/>
 - NIST AI RMF (`measure` function): quantifying both the
   efficiency gain and the accuracy cost before adopting a
   compressed variant —
