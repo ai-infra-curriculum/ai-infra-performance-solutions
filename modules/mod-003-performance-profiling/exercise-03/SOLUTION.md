@@ -206,7 +206,7 @@ Hand-off to next tool: <nsys step profile | ncu on kernel X | fix DataLoader>
 - PyTorch, *PyTorch Profiler With TensorBoard* tutorial:
   <https://pytorch.org/tutorials/intermediate/tensorboard_profiler_tutorial.html>
 - `torch-tb-profiler` TensorBoard plugin:
-  <https://github.com/pytorch/kineto/tree/main/tb_plugin>
+  <http://web.archive.org/web/20260403102725/https://github.com/pytorch/kineto/tree/main/tb_plugin>
 - Perfetto UI (Chrome Event Format viewer):
   <https://ui.perfetto.dev/>
 - Module-level rationale for using the PyTorch Profiler as the
