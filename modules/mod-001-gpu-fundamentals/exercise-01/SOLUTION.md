@@ -295,7 +295,7 @@ Observed repeatedly in submissions:
 
 - NVIDIA CUDA C++ Programming Guide — kernel launch semantics,
   grid/block sizing, host-device synchronization behavior.
-  <https://docs.nvidia.com/cuda/cuda-c-programming-guide/>
+  <http://web.archive.org/web/20261101143446/https://docs.nvidia.com/cuda/cuda-c-programming-guide/>
 - NVIDIA CUDA Runtime API — events and timing
   (`cudaEventRecord`, `cudaEventElapsedTime`).
   <https://docs.nvidia.com/cuda/cuda-runtime-api/>
