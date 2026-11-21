@@ -269,7 +269,7 @@ Scoring guidance:
   https://pytorch.org/docs/stable/cuda.html
 - NVIDIA CUDA C++ Programming Guide — asynchronous concurrent
   execution, streams, and events (the primitives PyTorch wraps):
-  https://docs.nvidia.com/cuda/cuda-c-programming-guide/
+  http://web.archive.org/web/20261101143446/https://docs.nvidia.com/cuda/cuda-c-programming-guide/
 - Nsight Systems user guide — reading the copy-engine and SM
   activity rows to confirm overlap:
   https://docs.nvidia.com/nsight-systems/
