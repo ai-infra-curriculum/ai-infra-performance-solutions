@@ -321,7 +321,7 @@ scores lower than a correct regex implementation.
 - NVIDIA CUDA C++ Programming Guide — "SIMT Architecture" and
   "Warp Divergence" sections. Authoritative explanation of how
   the hardware handles intra-warp branch disagreement.
-  <http://web.archive.org/web/20261101143446/https://docs.nvidia.com/cuda/cuda-c-programming-guide/>
+  <http://web.archive.org/web/20261101143446/http://web.archive.org/web/20261101143446/https://docs.nvidia.com/cuda/cuda-c-programming-guide/>
 - NVIDIA Nsight Compute — user guide and metrics reference.
   Documents the `smsp__sass_branch_targets*` family of metrics
   used in §2.3.
